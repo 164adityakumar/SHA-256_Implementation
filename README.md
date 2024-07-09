@@ -11,13 +11,7 @@ encrypts the intermediate hash value using the message blo ck as key. Hence ther
 are two main comp onents to describ e: (1) the SHA-256 compression function, and
 (2) the SHA-256 message schedule.
 
-## Compresssion Function
-![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/e169855a-d6e7-400f-8050-a000e54145a9)
-
-## Message Schedule
-![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/972c3405-4d83-4064-a3c9-d68c923c796b)
-
-# Algorithm steps
+## Algorithm steps
 1. Pre-Processing
 2. Initialize Hash Values (h)
 3. Initialize Round Constants (k)
@@ -26,6 +20,13 @@ are two main comp onents to describ e: (1) the SHA-256 compression function, and
 6. Compression
 7. Modify Final Values
 8. Concatenate Final Hash
+
+
+## Compresssion Function
+![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/e169855a-d6e7-400f-8050-a000e54145a9)
+
+## Message Schedule
+![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/972c3405-4d83-4064-a3c9-d68c923c796b)
 
 
 
