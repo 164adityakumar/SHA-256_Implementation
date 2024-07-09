@@ -23,7 +23,7 @@ are two main comp onents to describ e: (1) the SHA-256 compression function, and
 
 
 ## Compresssion Function
-![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/e169855a-d6e7-400f-8050-a000e54145a9)
+![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/6591b2a1-e7e3-4ac7-9263-9b790cc000b0)
 
 ## Message Schedule
 ![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/972c3405-4d83-4064-a3c9-d68c923c796b)
