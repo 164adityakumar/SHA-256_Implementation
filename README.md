@@ -1,7 +1,22 @@
-# SHA-256-Verilog-HDL
-SHA-2 (Secure Hash Algorithm 2), of which SHA-256 is a part, is one of the most popular hashing algorithms out there.
-SHA-2 is known for its security (it hasn’t broken down like SHA-1), and its speed. In cases where keys are not being generated, such as mining Bitcoin, 
-a fast hash algorithm like SHA-2 often reigns supreme.
+# SHA-256_Verilog_Implementaion
+SHA-2 (Secure Hash Algorithm 2), which includes SHA-256, is among the most widely used hashing algorithms today. Renowned for its security—unlike SHA-1, which has been compromised—SHA-2 is also noted for its speed. This makes it particularly effective in scenarios where key generation isn't required, such as Bitcoin mining, where a fast hash algorithm like SHA-2 is highly advantageous.
+
+## General Hash Computational Flow
+![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/edfc7cbe-8ff4-41ff-a84a-2a83a2bf31c1)
+
+# Working
+The SHA-256 compression function op erates on a 512-bit message block and a 256-
+bit intermediate hash value. It is essentially a 256-bit blo ck cipher algorithm which
+encrypts the intermediate hash value using the message blo ck as key. Hence there
+are two main comp onents to describ e: (1) the SHA-256 compression function, and
+(2) the SHA-256 message schedule.
+
+## Compresssion Function
+![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/e169855a-d6e7-400f-8050-a000e54145a9)
+
+## Message Schedule
+![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/972c3405-4d83-4064-a3c9-d68c923c796b)
+
 # Algorithm steps
 1. Pre-Processing
 2. Initialize Hash Values (h)
@@ -11,3 +26,6 @@ a fast hash algorithm like SHA-2 often reigns supreme.
 6. Compression
 7. Modify Final Values
 8. Concatenate Final Hash
+
+
+
