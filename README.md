@@ -8,7 +8,7 @@ SHA-2 (Secure Hash Algorithm 2), which includes SHA-256, is among the most widel
 The SHA-256 compression function op erates on a 512-bit message block and a 256-
 bit intermediate hash value. It is essentially a 256-bit blo ck cipher algorithm which
 encrypts the intermediate hash value using the message blo ck as key. Hence there
-are two main comp onents to describ e: (1) the SHA-256 compression function, and
+are two main comp onents to describe: (1) the SHA-256 compression function, and
 (2) the SHA-256 message schedule.
 
 ## Algorithm steps
@@ -22,7 +22,7 @@ are two main comp onents to describ e: (1) the SHA-256 compression function, and
 8. Concatenate Final Hash
 
 
-## Compresssion Function
+## Compression Function
 ![image](https://github.com/164adityakumar/curly-dollop/assets/98655260/6591b2a1-e7e3-4ac7-9263-9b790cc000b0)
 
 ## Message Schedule
